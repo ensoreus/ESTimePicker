@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ESTimePicker_private.h>
+#import <ESTimePicker/ESTimePicker_private.h>
 
 //! Project version number for ESTimePicker.
 FOUNDATION_EXPORT double ESTimePickerVersionNumber = 0.5;
