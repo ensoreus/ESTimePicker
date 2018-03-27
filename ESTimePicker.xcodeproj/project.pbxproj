@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		28CD796920638BB10022833D /* ESTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CD796720638BB10022833D /* ESTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28CD79732063987B0022833D /* ESMathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD796F2063987B0022833D /* ESMathUtils.m */; };
-		28CD79742063987B0022833D /* ESTimePicker_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CD79702063987B0022833D /* ESTimePicker_private.h */; };
+		28CD79742063987B0022833D /* ESTimePicker_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CD79702063987B0022833D /* ESTimePicker_private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28CD79752063987B0022833D /* ESTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CD79712063987B0022833D /* ESTimePicker.m */; };
-		28CD79762063987B0022833D /* ESMathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CD79722063987B0022833D /* ESMathUtils.h */; };
+		28CD79762063987B0022833D /* ESMathUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CD79722063987B0022833D /* ESMathUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +109,7 @@
 				TargetAttributes = {
 					28CD796320638BB10022833D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -266,6 +267,7 @@
 		28CD796D20638BB10022833D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -279,6 +281,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.ESTimePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -286,6 +290,7 @@
 		28CD796E20638BB10022833D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -299,6 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.ESTimePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
