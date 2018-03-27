@@ -10,10 +10,10 @@
 #import <ESTimePicker/ESTimePicker_private.h>
 
 //! Project version number for ESTimePicker.
-FOUNDATION_EXPORT double ESTimePickerVersionNumber = 0.5;
+FOUNDATION_EXPORT double ESTimePickerVersionNumber = 0.5.2;
 
 //! Project version string for ESTimePicker.
-FOUNDATION_EXPORT const unsigned char ESTimePickerVersionString[] = "0.5";
+FOUNDATION_EXPORT const unsigned char ESTimePickerVersionString[] = "0.5.2";
 
 // In this header, you should import all the public headers of your framework using statements like #import <ESTimePicker/PublicHeader.h>
 

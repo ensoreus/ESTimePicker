@@ -2,6 +2,7 @@ ESTimePicker
 ============
 [![Platform](https://cocoapod-badges.herokuapp.com/p/ESTimePicker/badge.png)](http://cocoadocs.org/docsets/ESTimePicker)
 [![Version](https://cocoapod-badges.herokuapp.com/v/ESTimePicker/badge.png)](http://cocoadocs.org/docsets/ESTimePicker)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 A custom time picker just like the [Google Calendar Android App](http://siliconstation.com/media/2013/06/Google-Calendar-for-Android-Time-Picker.jpg)
 
